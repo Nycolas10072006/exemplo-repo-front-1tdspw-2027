@@ -1,0 +1,39 @@
+/* Estilos gerais do body */
+
+body {
+    background-color: #0a0a0a;
+    color: #0595f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    margin: 0;       
+    padding: 20px;   
+}
+
+.nav-link{
+    color: aqua;
+    font-size: 16px;
+    text-decoration: none;
+}
+#active-link{
+    color: red;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+#menu{
+    background-color: rosybrown;
+    border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+}
+
+#menu li{
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+/* CONTAINER PRINCIPAL */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
